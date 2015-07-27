@@ -1,0 +1,11 @@
+{
+    "name": "artesan-io/flashers-bundle",
+    "type": "symfony-bundle",
+    "description": "FlashersBundle",
+    "keywords": ["Flashser", "Bag", "Flasher Bag", "ArtesanIO"],
+    "homepage": "https://www.cristianangulo.com",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "ArtesanIO\\FlashersBundle\\": "" }
+    }
+}
