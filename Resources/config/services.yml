@@ -1,0 +1,11 @@
+services:
+
+    artesanio.flashers:
+        class: ArtesanIO\FlashersBundle\Utils\Flashers
+        arguments:
+            - @session
+
+    artesanio.flashers_extension:
+        class: ArtesanIO\FlashersBundle\Utils\FlashersExtension
+        tags:
+            - { name: twig.extension }
